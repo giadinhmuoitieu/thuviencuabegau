@@ -23,6 +23,10 @@
   font-weight: 300;
 }
 
+.jumbotron-tital {
+  font-weight: normal;
+}
+
 .jumbotron .container {
   max-width: 70rem;
 }
