@@ -1,0 +1,119 @@
+body{
+    background-image: url(images/background-lamb1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 30px;
+    font-family: "consolas", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+}
+
+/* Crunchyroll */
+h1{
+    font-family: "press Start 2P", "consolas", sans-serif;
+    font-size: 24px;
+    color: #224d56;
+}
+
+/* Anime for all */
+h5 span{
+    color: #224d56;
+    padding: 3px;
+    border-radius: 6px;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+/* Paragraph */
+.text p{
+    color: #fdfcfe;
+    text-shadow: 0px 0px 5px black;
+    min-width: 320px;
+    max-width: 1100px;
+}
+
+/* List */
+.list li{
+    color: #fdfcfe;
+    text-shadow: 0px 0px 5px black;
+    min-width: 320px;
+    max-width: 1060px;
+}
+
+/* Crunchyroll Button */
+#crunchyroll img{
+    max-height: 25px;
+    background-color: #f7a03f;
+    border: 2px solid #4c4d4f;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+/* Hime Smexy */
+#himesmexy img{
+    margin-left: 470px;
+    min-width: 365px;
+    max-width: 365px;
+    box-shadow: 0px 0px 20px black;
+    opacity: 0.9;
+}
+
+/* Text Botton */
+.botton-text p{
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 470px;
+}
+
+/* Hime Botton */
+#hime img{
+    margin-top: -400px;
+    max-height: 700px;
+    height: 100%;
+    width: auto;
+    z-index: 2;
+}
+
+/* Responsivity */
+@media screen and (max-width: 919px){
+    .text p{
+        color: #fdfcfe;
+        text-shadow: 0px 0px 5px black;
+        min-width: 20px;
+        max-width: 1100px;
+    }
+
+    .list li{
+        color: #fdfcfe;
+        text-shadow: 0px 0px 5px black;
+        min-width: 20px;
+        max-width: 1060px;
+    }
+
+    #himesmexy img{
+        position: relative;
+        margin-top: 20px;
+        margin-left: 1px;
+        min-width: 100px;
+        max-width: 240px;
+    }
+
+    .botton-text{
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: -465px;
+    }
+    
+    #hime img{
+        margin-left: -120px;
+        position: absolute;
+        margin-top: 20px;
+    }
+}
