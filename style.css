@@ -10,7 +10,7 @@ body{
 	background-position: center top;
 }
 
-.b-page__content{min-height:200px}
+.b-page__content{min-height:80px}
 .b-head-decor{display:none}
 .b-page_newyear .b-head-decor{
    position:absolute;
